@@ -15,7 +15,6 @@ int main() {
     printf("Enter the top of the interval: ");
     scanf("%d", &top);
     function2(bottom, top, sum);
-    
     return 0;
 }
 
@@ -41,4 +40,3 @@ void function2(int bottom, int top, int sum) {
         printf("Sum of even numbers in the interval: %d\n", sum);
     }
 }
-// ikisini de recursive fonksiyon yaptım, lanet olsun recursive fonksiyonlar'a :)
